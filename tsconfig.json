@@ -1,0 +1,19 @@
+{
+    "compilerOptions": {
+        "outDir": "./build/",
+        "sourceMap": true,
+        "noImplicitAny": true,
+        //"strictNullChecks": true,
+        "module": "commonjs",
+        "target": "es5",
+        "jsx": "react",
+        "experimentalDecorators": true
+    }
+    ,
+    "exclude": [
+        "typings/**",
+        "node_modules",
+        "build"
+    ]
+
+}
